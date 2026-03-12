@@ -1,0 +1,15 @@
+loan_approval:
+
+  rules:
+
+    - name: high_credit
+      condition: credit_score > 750
+      action: approve
+
+    - name: medium_credit
+      condition: credit_score > 650
+      action: manual_review
+
+    - name: low_credit
+      condition: credit_score <= 650
+      action: reject
