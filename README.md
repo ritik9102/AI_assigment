@@ -10,7 +10,6 @@ This project implements a configurable decision workflow system that processes r
 - REST API
 - Audit logging
 - Retry handling
-- Idempotency
 - State tracking
 
 ## Installation
@@ -21,5 +20,3 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 
-Open:
-http://127.0.0.1:8000/docs
